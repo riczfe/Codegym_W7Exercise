@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="input">
+            <label for="num1">Number 1: </label>
+            <input type="text" name="num1" id="num1">
+            <label for="num2">Number 2:</label>
+            <input type="text" name="num2" id="num2">
+        </div>
+
+        <div class="operations">
+            <br>
+            <button onclick="add()" type="button">Add (+)</button>
+            <button onclick="sub()" type="button">Subtract (-)</button>
+            <button onclick="mul()" type="button">Multiply (x)</button>
+            <button onclick="div()" type="button">Divide (/)</button>
+        </div>
+
+        <div class="resultDisplay">
+            <h4>Result: </h4>
+            <h5 id="result"></h5>
+        </div>
+    </div>
+</body>
+</html>
